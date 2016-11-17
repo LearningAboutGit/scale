@@ -17,7 +17,7 @@ Sensors:
     - DummyLightSensor:
         class: "dummy_sensors.dummy_light_virtual_sensor.DummyLightVirtualSensor"
         dev_name: "light0"
-    - RpiInternalSensor:
-        class: "rpi_internal_sensor.RPiInternalSensor"
+    - RPiMemorySensor:
+        class: "diagnostic_sensors.rpi_physical_memory_sensor.RPiMemoryVirtualSensor"
         dev_name: "rpis0"
         interval: 30
