@@ -18,6 +18,6 @@ Sensors:
         class: "dummy_sensors.dummy_light_virtual_sensor.DummyLightVirtualSensor"
         dev_name: "light0"
     - RPiMemorySensor:
-        class: "diagnostic_sensors.rpi_physical_memory_sensor.RPiMemoryVirtualSensor"
+        class: "diagnostic_sensors.ram_utilization_virtual_sensor.RAMUtilizationVirtualSensor"
         dev_name: "rpis0"
         interval: 30
